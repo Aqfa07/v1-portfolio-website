@@ -32,9 +32,9 @@ export default function Portfolio() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <CertificationsSection />
-        <ExperienceSection />
         <ProjectsSection />
+        <ExperienceSection />
+        <CertificationsSection />
         <ContactSection />
       </main>
 

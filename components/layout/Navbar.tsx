@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/ui/ThemeToggle"
 
-const NAV_LINKS = ["About", "Skills", "Certifications", "Experience", "Projects", "Contact"]
+const NAV_LINKS = ["About", "Skills", "Projects", "Experience", "Certifications", "Contact"]
 
 function scrollTo(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
@@ -19,7 +19,7 @@ export function Navbar() {
     const onScroll = () => {
       setScrolled(window.scrollY > 20)
 
-      const sections = ["hero", "about", "skills", "certifications", "experience", "projects", "contact"]
+      const sections = ["hero", "about", "skills", "projects", "experience", "certifications", "contact"]
       const scrollPos = window.scrollY + 100
 
       for (const id of sections) {

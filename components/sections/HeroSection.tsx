@@ -12,7 +12,7 @@ const ROLES = [
 
 const STATS = [
   { value: "3+", label: "Projects Deployed" },
-  { value: "2", label: "BNSP Certifications" },
+  { value: "93", label: "Cloud Badges" },
   { value: "C1", label: "English Level" },
   { value: "1+", label: "Year Experience" },
 ]
@@ -126,14 +126,31 @@ export function HeroSection() {
               </div>
 
               <p className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed animate-fade-in-up animate-delay-300">
-                Fresh graduate in Informatics Engineering Education from{" "}
-                <span className="text-foreground font-medium">Universitas Negeri Padang</span>.
-                Passionate about creating innovative AI solutions and full-stack applications.
+                Full-stack engineer with hands-on ML expertise.{" "}
+                <span className="text-foreground font-medium">TensorFlow Certified · AWS re/Start · C1 English.</span>
               </p>
+
+              {/* USP Credential Bar */}
+              <div className="flex flex-wrap gap-2 animate-fade-in-up animate-delay-400">
+                {[
+                  { icon: "🏆", text: "TensorFlow Developer" },
+                  { icon: "☁️", text: "AWS re/Start" },
+                  { icon: "🌐", text: "C1 English" },
+                  { icon: "🔬", text: "93 Cloud Badges" },
+                ].map(({ icon, text }) => (
+                  <span
+                    key={text}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium
+                      bg-accent/10 text-accent border border-accent/20"
+                  >
+                    {icon} {text}
+                  </span>
+                ))}
+              </div>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-3 animate-fade-in-up animate-delay-400">
+            <div className="flex flex-wrap gap-3 animate-fade-in-up animate-delay-500">
               <button
                 onClick={() => scrollTo("projects")}
                 className="px-6 py-3 rounded-xl font-medium bg-accent text-accent-foreground

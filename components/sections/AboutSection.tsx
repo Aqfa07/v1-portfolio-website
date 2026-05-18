@@ -50,13 +50,25 @@ export function AboutSection() {
           </p>
         </div>
 
-        {/* Mission Statement */}
+        {/* Storytelling — 3 paragraphs */}
         <div className="animate-on-scroll delay-100 mb-16">
-          <div className="glass-card rounded-2xl p-8 text-center max-w-3xl mx-auto border border-accent/10">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed italic">
-              &ldquo;My mission is to leverage Machine Learning and modern web technologies to build
-              products that <span className="text-accent font-semibold not-italic">solve real problems</span> —
-              from automating intelligent systems to crafting intuitive user experiences.&rdquo;
+          <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto border border-accent/10 space-y-4">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              My interest in Machine Learning started seriously during my thesis, where I built a{" "}
+              <span className="text-foreground font-medium">CNN model for plant disease classification</span>{" "}
+              — and the moment it achieved high accuracy on real leaf images, I knew this was the field I wanted to pursue.
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              Since then, I earned the{" "}
+              <span className="text-accent font-semibold">TensorFlow Developer Certificate</span>, completed the{" "}
+              <span className="text-accent font-semibold">AWS re/Start Graduate</span> program, and built deep Google Cloud expertise
+              through <span className="text-foreground font-medium">93 hands-on labs</span>. My exchange experience at Universitas Negeri Yogyakarta
+              also sharpened my ability to collaborate and adapt in new environments.
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              Now I&apos;m looking for a role as an <span className="text-foreground font-medium">ML Engineer or Full-Stack Developer</span> where I can
+              contribute from day one. I&apos;m comfortable working in international teams{" "}
+              <span className="text-accent font-semibold">(C1 English)</span> and enjoy building end-to-end systems — from model training to production APIs.
             </p>
           </div>
         </div>
@@ -94,12 +106,8 @@ export function AboutSection() {
               <h3 className="font-display font-semibold text-lg">Location & Contact</h3>
             </div>
             <div className="space-y-3 text-sm">
-              <p className="text-muted-foreground">📍 Kota Padang, Sumatera Barat, Indonesia</p>
               <a href="mailto:aqfasmanju7@gmail.com" className="block text-muted-foreground hover:text-accent transition-colors">
                 📧 aqfasmanju7@gmail.com
-              </a>
-              <a href="tel:+6281261479569" className="block text-muted-foreground hover:text-accent transition-colors">
-                📱 +62 812-6147-9569
               </a>
               <a
                 href="https://www.linkedin.com/in/aqilafif"

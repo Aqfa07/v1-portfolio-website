@@ -64,8 +64,9 @@ const jsonLd = {
   name: "Aqil Afif",
   url: "https://aqil-afif.vercel.app",
   email: "aqfasmanju7@gmail.com",
-  telephone: "+6281261479569",
-  jobTitle: "Machine Learning & Web Developer",
+  jobTitle: "Machine Learning Engineer & Full-Stack Developer",
+  description: "Fresh graduate specializing in Machine Learning, Web Development, and Cloud Computing. TensorFlow Developer Certified, AWS re/Start Graduate, C1 English.",
+  image: "https://aqil-afif.vercel.app/images/aqil-profile.jpg",
   alumniOf: {
     "@type": "CollegeOrUniversity",
     name: "Universitas Negeri Padang",
@@ -79,14 +80,32 @@ const jsonLd = {
   sameAs: [
     "https://github.com/Aqfa07",
     "https://www.linkedin.com/in/aqilafif",
+    "https://www.credly.com/users/aqil-afif",
   ],
   knowsAbout: [
-    "Machine Learning",
-    "Web Development",
-    "Mobile Development",
-    "TensorFlow",
-    "Next.js",
-    "Android Development",
+    "Machine Learning", "Deep Learning", "TensorFlow", "Python",
+    "Web Development", "Next.js", "React", "TypeScript",
+    "Mobile Development", "Android", "Google Cloud", "AWS",
+  ],
+  hasCredential: [
+    {
+      "@type": "EducationalOccupationalCredential",
+      name: "TensorFlow Developer Certificate",
+      credentialCategory: "Professional Certificate",
+      recognizedBy: { "@type": "Organization", name: "TensorFlow / Google" },
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      name: "AWS re/Start Graduate",
+      credentialCategory: "Professional Certificate",
+      recognizedBy: { "@type": "Organization", name: "Amazon Web Services" },
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      name: "Junior Web Programmer",
+      credentialCategory: "Professional Certificate",
+      recognizedBy: { "@type": "Organization", name: "BNSP Indonesia" },
+    },
   ],
 }
 

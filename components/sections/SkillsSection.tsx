@@ -161,7 +161,7 @@ export function SkillsSection() {
         <div className="grid lg:grid-cols-2 gap-10">
 
           {/* Progress Bars */}
-          <div className="animate-from-left is-visible glass-card rounded-2xl p-8 space-y-6">
+          <div className="animate-from-left glass-card rounded-2xl p-8 space-y-6">
             <h3 className="font-display font-semibold text-lg flex items-center gap-2">
               <span>{group.icon}</span> {group.category}
             </h3>
@@ -171,7 +171,7 @@ export function SkillsSection() {
           </div>
 
           {/* Tech Tags */}
-          <div className="animate-from-right is-visible glass-card rounded-2xl p-8">
+          <div className="animate-from-right glass-card rounded-2xl p-8">
             <h3 className="font-display font-semibold text-lg mb-6">Technologies</h3>
             <div className="flex flex-wrap gap-2">
               {group.tags.map((tag) => (
