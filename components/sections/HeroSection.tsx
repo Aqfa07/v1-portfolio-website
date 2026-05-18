@@ -205,7 +205,7 @@ export function HeroSection() {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-4 gap-4 pt-4 border-t border-white/8 animate-fade-in-up animate-delay-600">
+            <div className="grid grid-cols-4 gap-4 pt-4 border-t border-border animate-fade-in-up animate-delay-600">
               {STATS.map(({ value, label }) => (
                 <div key={label} className="text-center">
                   <p className="text-2xl font-display font-bold gradient-text-cyan">{value}</p>

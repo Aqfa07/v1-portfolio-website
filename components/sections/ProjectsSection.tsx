@@ -134,8 +134,8 @@ export function ProjectsSection() {
             return (
               <article
                 key={project.title}
-                className={`animate-scale delay-${(i + 1) * 100}
-                  is-visible glass-card gradient-border rounded-2xl p-6
+                  className={`animate-scale delay-${(i + 1) * 100}
+                  glass-card gradient-border rounded-2xl p-6
                   hover:-translate-y-2 hover:shadow-2xl hover:shadow-accent/10
                   transition-all duration-400 group flex flex-col`}
               >
@@ -171,14 +171,14 @@ export function ProjectsSection() {
                 </div>
 
                 {/* Actions */}
-                <div className="flex gap-2 pt-3 border-t border-white/8">
+                <div className="flex gap-2 pt-3 border-t border-border">
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`View ${project.title} source code on GitHub`}
                     className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl text-sm font-medium
-                      border border-white/10 hover:border-accent/50 hover:text-accent hover:bg-accent/5
+                      border border-border hover:border-accent/50 hover:text-accent hover:bg-accent/5
                       transition-all duration-300 focus-ring"
                   >
                     <Github size={15} />
@@ -212,7 +212,7 @@ export function ProjectsSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3 rounded-xl font-medium
-              border border-white/15 hover:border-accent/50 hover:bg-accent/10 hover:text-accent
+              border border-border hover:border-accent/50 hover:bg-accent/10 hover:text-accent
               hover:scale-105 transition-all duration-300 focus-ring"
             aria-label="View all projects on GitHub"
           >

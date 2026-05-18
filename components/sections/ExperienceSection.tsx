@@ -142,7 +142,7 @@ export function ExperienceSection() {
                   </ul>
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-2 pt-3 border-t border-white/8">
+                  <div className="flex flex-wrap gap-2 pt-3 border-t border-border">
                     {exp.tags.map((tag) => (
                       <span key={tag} className="tech-pill">{tag}</span>
                     ))}

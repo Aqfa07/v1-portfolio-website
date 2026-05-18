@@ -90,7 +90,7 @@ export function AboutSection() {
                 <p className="text-sm text-accent">Informatics Engineering Education</p>
                 <p className="text-xs text-muted-foreground">Universitas Negeri Padang · 2020–2025</p>
               </div>
-              <div className="border-t border-white/8 pt-3">
+              <div className="border-t border-border pt-3">
                 <p className="font-semibold text-sm">Exchange Program</p>
                 <p className="text-xs text-muted-foreground">Universitas Negeri Yogyakarta · 2022–2023</p>
               </div>

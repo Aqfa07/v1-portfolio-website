@@ -121,29 +121,27 @@
    ============================================ */
 @layer utilities {
   /* ---- Glassmorphism ---- */
+  /* Light mode default */
   .glass-card {
-    background: rgba(13, 20, 34, 0.6);
+    background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  /* Dark mode override */
+  .dark .glass-card {
+    background: rgba(13, 20, 34, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
-  .glass-card-light {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-  }
   .glass-nav {
-    background: rgba(10, 15, 30, 0.85);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  }
-  .glass-nav-light {
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  .dark .glass-nav {
+    background: rgba(10, 15, 30, 0.85);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   }
 
   /* ---- Glow Effects ---- */

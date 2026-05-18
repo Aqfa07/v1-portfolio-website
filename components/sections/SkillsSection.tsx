@@ -182,7 +182,7 @@ export function SkillsSection() {
             </div>
 
             {/* All skills quick overview */}
-            <div className="mt-8 pt-6 border-t border-white/8">
+            <div className="mt-8 pt-6 border-t border-border">
               <h4 className="text-sm font-medium text-muted-foreground mb-4">All Areas at a Glance</h4>
               <div className="grid grid-cols-5 gap-3">
                 {SKILL_GROUPS.map(({ category, icon: grpIcon, skills: s }) => {

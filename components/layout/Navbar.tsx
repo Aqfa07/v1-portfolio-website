@@ -43,7 +43,7 @@ export function Navbar() {
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${
         scrolled
-          ? "dark:glass-nav glass-nav-light shadow-lg shadow-black/20"
+          ? "glass-nav shadow-lg shadow-black/10"
           : "bg-transparent"
       }`}
     >
